@@ -7,8 +7,8 @@ def who_wins(player1, item1, player2, item2): # Checks which player won the roun
        (item1 == "scissors" and item2 == "paper") or \
        (item1 == "paper" and item2 == "rock"):
         return player1
-    else:
-        return player2
+
+    return player2
 
 def find_best_player(stats): # Takes the stats and find which player has the best stats
     best_ratio = -1
